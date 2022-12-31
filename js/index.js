@@ -1,0 +1,83 @@
+const checkbox = document.getElementById('checkbox');
+const mood = document.getElementById('head-title');
+const white = document.getElementById('white');
+const gray = document.getElementById('gray');
+const label = document.getElementById('label');
+const box = document.getElementById('box');
+const boxTw = document.getElementById('box-tw');
+const boxIns = document.getElementById('box-ins');
+const boxYou = document.getElementById('box-you');
+const boxWhite = document.getElementById('white-box');
+const boxWhite2 = document.getElementById('white-box2');
+const boxWhite3 = document.getElementById('white-box3');
+const boxWhite4 = document.getElementById('white-box4');
+const boxp3 = document.getElementById('p1');
+const boxp4 = document.getElementById('p2');
+const boxp5 = document.getElementById('p3');
+const boxp6 = document.getElementById('p4');
+const boxp7 = document.getElementById('p5');
+const boxp8 = document.getElementById('p6');
+const boxp9 = document.getElementById('p7');
+const boxp10 = document.getElementById('p8');
+const fb1 = document.getElementById('box-fb1');
+const fb2 = document.getElementById('box-fb2');
+const ins1 = document.getElementById('box-ins1');
+const ins2 = document.getElementById('box-ins2');
+const tw1 = document.getElementById('box-tw1');
+const tw2 = document.getElementById('box-tw2');
+const you1 = document.getElementById('box-you1');
+const you2 = document.getElementById('box-you2');
+const p9 = document.getElementById('p9');
+const p10 = document.getElementById('p10');
+const p11 = document.getElementById('p11');
+const p12 = document.getElementById('p12');
+const p13 = document.getElementById('p13');
+const p14 = document.getElementById('p14');
+const p15 = document.getElementById('p15');
+const p16 = document.getElementById('p16');
+const overov = document.getElementById('sp');
+
+
+
+checkbox.addEventListener('change', ()=>{
+  document.body.classList.toggle('dark');
+  mood.classList.toggle('darkblue');
+  white.classList.toggle('white');
+  gray.classList.toggle('gray');
+  label.classList.toggle('label-linear');
+  box.classList.toggle('darkblue2');
+  boxTw.classList.toggle('darkblue2');
+  boxIns.classList.toggle('darkblue3');
+  boxYou.classList.toggle('darkblue4');
+  boxWhite.classList.toggle('white');
+  boxWhite2.classList.toggle('white');
+  boxWhite3.classList.toggle('white');
+  boxWhite4.classList.toggle('white');
+  boxp3.classList.toggle('gray');
+  boxp4.classList.toggle('gray');
+  boxp5.classList.toggle('gray');
+  boxp6.classList.toggle('gray');
+  boxp7.classList.toggle('gray');
+  boxp8.classList.toggle('gray');
+  boxp9.classList.toggle('gray');
+  boxp10.classList.toggle('gray');
+  fb1.classList.toggle('blue');
+  fb2.classList.toggle('blue');
+  tw1.classList.toggle('blue');
+  tw2.classList.toggle('blue');
+  ins1.classList.toggle('blue'); 
+  ins2.classList.toggle('blue');
+  you1.classList.toggle('blue');
+  you2.classList.toggle('blue');
+  p9.classList.toggle('white');
+  p10.classList.toggle('white');
+  p11.classList.toggle('white');
+  p12.classList.toggle('white');
+  p13.classList.toggle('white');
+  p14.classList.toggle('white');
+  p15.classList.toggle('white');
+  p16.classList.toggle('white');
+  overov.classList.toggle('white');
+ })
+
+ 
